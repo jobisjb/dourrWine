@@ -1,11 +1,80 @@
-*{
+* {
     font-family: Arial, Helvetica, sans-serif;
 }
-body{
-    background-image: url("./Images/bgImage3.jpg");
-    height: 100%;
-    width: auto;
+
+body {
+    margin: auto;
+    background-image: url("./Images/bgImage2.jpg");
+    background-repeat: no-repeat;
+    background-size:100%;
+    height:auto;
+    width: 100%;
 }
-.wineAndClassification{
-    background-color: red;
+
+.wineAndClassification {
+    width: inherit;
+    height: auto;
+    background-color:
+        #fadde2;
+    display: inline-flex;
+    justify-content: space-between;
+    padding: 1%;
+
+}
+#selectCategory{
+    width: 200px;
+    border-radius: 12px;
+    padding: 5px;
+}
+
+#wineFilter {
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#wineFilter_subDiv {
+    position:relative;
+    width: 100%;
+    padding: 1%;
+    display: inline-flex;
+    justify-content: space-between;
+}
+
+#sub_wine {
+
+}
+#searchWine{
+    border: 2px solid #fadde2;
+    width: 200px;
+    border-radius: 12px;
+    padding: 5px;
+}
+
+#sub_class {
+    padding-right: 2%;
+}
+
+#searchByMeal{
+    padding-right: 2%;
+}
+
+.mainHeader {
+    font-weight: 00;
+    font-size: 5.0vh;
+    letter-spacing: -.03125rem;
+    text-align: center;
+}
+.wineFilter_btn{
+    background-color: #fadde2;
+    border: 2px solid #fadde2;
+    width: 100px;
+    border-radius: 12px;
+    padding: 5px;
+}
+#mealDish{
+    border: 2px solid #fadde2;
+    width: 200px;
+    border-radius: 12px;
+    padding: 5px;
 }

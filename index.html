@@ -4,37 +4,40 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
     <title>Dourr Wines</title>
 </head>
 
 <body>
     <div class="wineAndClassification">
-        <div class="wineAndClassification_sub">
+        <div class="wineAndClassification_sub" id="sub_wine">
             <label for="searchWine">Wine</label>
             <input type="text" id="searchWine" name="searchWine">
         </div>
-        <div class="wineAndClassification_sub">
+        <div class="wineAndClassification_sub" id="sub_class">
             <label for="selectCategory">Select Classification</label>
             <select id="selectCategory" name="selectCategory">
             </select>
         </div>
     </div>
-
-    <h1>Top Five</h1>
-    <section class="wineFilter">
-        <div class="wineFilter_div" id="priceMenu">
-            <button type="button" class="wineFilter_btn" >Low</button>
-            <button type="button" class="wineFilter_btn" >Medium</button>
-            <button type="button" class="wineFilter_btn" >High</button>
-        </div>
-        <div class="wineFilter_div" id="searchByMeal">
-            <label for="mealDish">Meal Dish</label>
-            <input type="text" id="mealDish" name="mealDish">
+    <section class="container" id="wineFilter">
+        <h1 class="mainHeader">Top Five Selection</h1>
+        <div class="container" id="wineFilter_subDiv">
+            <div class="wineFilter_div" id="priceMenu">
+                <button type="button" class="wineFilter_btn">Low</button>
+                <button type="button" class="wineFilter_btn">Medium</button>
+                <button type="button" class="wineFilter_btn">High</button>
+            </div>
+            <div class="wineFilter_div" id="searchByMeal">
+                <label for="mealDish">Meal Dish</label>
+                <input type="text" id="mealDish" name="mealDish">
+            </div>
         </div>
     </section>
     <footer>
-        
+
     </footer>
 
 </body>
+
 </html>
