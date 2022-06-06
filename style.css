@@ -22,6 +22,14 @@ body {
 
 }
 #selectCategory{
+    border: 2px solid #fadde2;
+    width: 200px;
+    border-radius: 12px;
+    padding: 5px;
+}
+
+#searchWine{
+    border: 2px solid #fadde2;
     width: 200px;
     border-radius: 12px;
     padding: 5px;
@@ -31,6 +39,9 @@ body {
     width: 80%;
     margin-left: auto;
     margin-right: auto;
+}
+.wineFilter_div{
+    
 }
 
 #wineFilter_subDiv {
@@ -43,12 +54,6 @@ body {
 
 #sub_wine {
 
-}
-#searchWine{
-    border: 2px solid #fadde2;
-    width: 200px;
-    border-radius: 12px;
-    padding: 5px;
 }
 
 #sub_class {
