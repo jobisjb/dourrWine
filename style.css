@@ -1,5 +1,6 @@
 * {
     font-family: Arial, Helvetica, sans-serif;
+
 }
 
 body {
@@ -34,14 +35,10 @@ body {
     border-radius: 12px;
     padding: 5px;
 }
-
 #wineFilter {
     width: 80%;
     margin-left: auto;
     margin-right: auto;
-}
-.wineFilter_div{
-    
 }
 
 #wineFilter_subDiv {
@@ -51,9 +48,18 @@ body {
     display: inline-flex;
     justify-content: space-between;
 }
+#wineFilterResults {
+    width: 100%;
+    height: auto;
+    padding: 1%;
+    display: inline-flex;
+    justify-content: space-between;
+}
 
-#sub_wine {
-
+.card{
+    width: 30%;
+    background-color:white;
+    opacity: 0.8;
 }
 
 #sub_class {
